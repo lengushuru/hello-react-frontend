@@ -105,7 +105,7 @@ Here is the [Back-End](https://github.com/lengushuru/hello-rails-backend) of the
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/lengushuru/hello-rails-backend.git/issues).
+Feel free to check the [issues page](https://github.com/lengushuru/hello-react-frontend/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
