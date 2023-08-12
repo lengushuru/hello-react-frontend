@@ -41,7 +41,7 @@ This app is build with Ruby on Rails and Postgresql.
 
 ### Key Features <a name="key-features"></a>
 
-> - User can create a See a random Greeting
+> - User can create and See a random Greeting
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
