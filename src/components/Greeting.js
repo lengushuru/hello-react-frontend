@@ -4,15 +4,15 @@ import { fetchGreetings } from '../features/greetingSlice';
 
 function Greeting() {
   const dispatch = useDispatch();
-  const greeting_data = useSelector((state) => state.greetings.greetings);
-  const loading = useSelector((state) => state.greetings.isLoading);
-  const error = useSelector((state) => state.greetings.error);
+  const greetingsData = useSelector((state) => state.greeting.greetings);
+  const loading = useSelector((state) => state.greeting.isLoading);
+  const error = useSelector((state) => state.greeting.error);
 
   useEffect(() => {
     dispatch(fetchGreetings());
     const interval = setInterval(() => {
       dispatch(fetchGreetings());
-    }, 5000);
+    }, 3000);
 
     return () => clearInterval(interval);
   }, [dispatch]);
@@ -33,7 +33,7 @@ function Greeting() {
 
   return (
     <div className="greeting">
-      {greeting_data && <h1>{greeting_data.message}</h1>}
+      {greetingsData && <h1>{greetingsData.message}</h1>}
     </div>
   );
 }

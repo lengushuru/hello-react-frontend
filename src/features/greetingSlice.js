@@ -1,5 +1,5 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-import axios from 'axios'; 
+import axios from 'axios';
 
 const initialState = {
   greetings: null,
@@ -35,7 +35,6 @@ const greetingsSlice = createSlice({
         state.isLoading = false;
         state.error = null;
       });
-    
   },
 });
 
